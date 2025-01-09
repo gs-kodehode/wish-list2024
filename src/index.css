@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.snow {
+  width: 9px;
+  height: 9px;
+  background: whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  top: -10vh;
+  filter: blur(1px);
+  left: calc(10vw * var(--s));
+  animation: snow calc(1.9s * var(--s)) linear infinite;
+  animation-delay: -36s;
+}
+@keyframes snow {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 300vh, 0);
+  }
+}

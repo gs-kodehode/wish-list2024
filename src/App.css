@@ -1,0 +1,27 @@
+.santa,
+.star {
+  height: 5rem;
+  width: 4rem;
+}
+
+#Image-hop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 5.4rem;
+  width: 4.2rem;
+  position: relative;
+  top: 1.5%;
+  left: 80%;
+  animation: hop 1.7s infinite;
+}
+
+@keyframes hop {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, -50px);
+  }
+}
