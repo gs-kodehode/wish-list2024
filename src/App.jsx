@@ -5,7 +5,7 @@ import star from "./assets/star.png";
 import santa from "./assets/icon.png";
 
 const MainContainer = styled.div`
-  background-image: url(./src/assets/bg.png);
+  background-image: url(/src/assets/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
