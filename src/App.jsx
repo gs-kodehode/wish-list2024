@@ -6,6 +6,7 @@ import santa from "./assets/icon.png";
 
 const MainContainer = styled.div`
   background-image: url(/src/assets/bg.png);
+  background-color: #9d0202;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
